@@ -210,7 +210,6 @@ function animate() {
 
   // lose condition
   if (player.position.y > canvas.height) {
-    console.log('you lose');
     init();
   }
 }
